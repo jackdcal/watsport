@@ -1,0 +1,1214 @@
+body {
+  background-color: rgb(250, 250, 250);
+  font: 400 0.875em/0.78 Helvetica;
+  color: rgb(0, 0, 0);
+}
+
+.ad-right {
+  position: fixed;
+  top: 105px;
+  left: 75.5833333333%;
+  z-index: 1;
+  width: 24.3333333333%;
+  min-width: 250px;
+  height: 480px;
+  background-color: rgb(222, 222, 222);
+}
+
+.card {
+  position: relative;
+  float: left;
+  border: 1px solid rgb(144, 198, 253);
+  background-color: rgb(222, 222, 222);
+}
+
+.card-header {
+  position: relative;
+  float: left;
+  width: 100%;
+  height: 64px;
+  background: rgb(222, 222, 222);
+  background: -webkit-linear-gradient(90deg, rgb(222, 222, 222) 0%, rgb(3, 70, 139) 30%) rgb(3, 70, 139);
+  background:    -moz-linear-gradient(90deg, rgb(222, 222, 222) 0%, rgb(3, 70, 139) 30%) rgb(3, 70, 139);
+  background:      -o-linear-gradient(90deg, rgb(222, 222, 222) 0%, rgb(3, 70, 139) 30%) rgb(3, 70, 139);
+  background:     -ms-linear-gradient(90deg, rgb(222, 222, 222) 0%, rgb(3, 70, 139) 30%) rgb(3, 70, 139);
+  background:         linear-gradient(360deg, rgb(222, 222, 222) 0%, rgb(3, 70, 139) 30%) rgb(3, 70, 139);
+  background-repeat: no-repeat;
+}
+
+.mainlayout {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.container .row {
+  width: 100%;
+  height: 761px;
+  margin-left: 15px;
+}
+
+.container .team {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 32.9471982758%;
+  width: 155px;
+  height: 26px;
+  margin: auto 0;
+  font-size: 1.143em;
+  line-height: 1.38;
+}
+
+.footer {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 0;
+  width: 100%;
+  height: 105px;
+  margin-top: 63px;
+  background-color: rgb(222, 222, 222);
+}
+
+.h6 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 99px;
+  height: 32px;
+  margin: auto;
+  font-size: 1.429em;
+  line-height: 1.38;
+  color: rgb(237, 236, 236);
+}
+
+.image {
+  display: block;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -0.0606142242%;
+  width: 66px;
+  height: auto;
+  margin: auto 0;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, .5);
+  overflow: hidden;
+}
+
+.match {
+  position: relative;
+  float: left;
+}
+
+.match .card {
+  width: 25%;
+  height: 376px;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 170;
+  width: 100%;
+  height: 69px;
+  background-color: rgba(3, 70, 139, 0.9);
+  box-shadow: 0 4px 7px rgba(0, 0, 0, .5), 0 2px 5px rgba(0, 0, 0, .5);
+}
+
+.team .card {
+  height: 68px;
+  border-radius: 7px;
+}
+
+.text {
+  color: rgb(0, 0, 0);
+}
+
+.text-1 p,
+.text-2 p,
+.text-3 p,
+.text-4 p,
+.text-5 p,
+.text-6 p,
+.text-7 p,
+.text-8 p {
+  margin-bottom: 1em;
+}
+
+.title {
+  float: left;
+  width: 19.0833333333%;
+  min-height: 59px;
+  margin-left: 2.25%;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, .5);
+  font-size: 1.143em;
+  line-height: 1.38;
+  color: rgb(255, 92, 1);
+}
+
+._container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 90.4589074803%;
+  height: 50px;
+  margin: auto;
+}
+
+._text {
+  float: left;
+  clear: both;
+  width: 100%;
+  height: 45px;
+  min-height: 45px;
+  margin-top: 8px;
+  border-bottom: 1px dashed rgba(26, 26, 26, 0.86);
+  font-size: 1em;
+  text-align: center;
+}
+
+.card-1 {
+  z-index: 143;
+}
+
+.card-10 {
+  z-index: 9;
+  width: 31.1841889154%;
+  margin-left: 3.27432%;
+}
+
+.card-11 {
+  z-index: 13;
+  width: 31.1841889154%;
+  margin-left: 3.157%;
+}
+
+.card-12 {
+  clear: both;
+  z-index: 17;
+  width: 31.1841889154%;
+}
+
+.card-13 {
+  z-index: 21;
+  width: 31.1841889154%;
+  margin-left: 3.27432%;
+}
+
+.card-14 {
+  z-index: 25;
+  width: 31.1841889154%;
+  margin-left: 3.157%;
+}
+
+.card-15 {
+  clear: both;
+  z-index: 29;
+  width: 31.1841889154%;
+}
+
+.card-16 {
+  z-index: 33;
+  width: 31.1841889154%;
+  margin-left: 3.27076%;
+}
+
+.card-17 {
+  z-index: 37;
+  width: 31.1841889154%;
+  margin-left: 3.157%;
+}
+
+.card-18 {
+  clear: both;
+  z-index: 41;
+  width: 31.1824620327%;
+}
+
+.card-19 {
+  z-index: 45;
+  width: 31.1824620327%;
+  margin-left: 3.26365%;
+}
+
+.card-2 {
+  z-index: 146;
+}
+
+.card-20 {
+  z-index: 49;
+  width: 31.1824620327%;
+  margin-left: 3.14811%;
+}
+
+.card-21 {
+  clear: both;
+  z-index: 53;
+  width: 31.1824620327%;
+}
+
+.card-22 {
+  z-index: 57;
+  width: 31.1824620327%;
+  margin-left: 3.24943%;
+}
+
+.card-23 {
+  z-index: 61;
+  width: 31.1824620327%;
+  margin-left: 3.141%;
+}
+
+.card-24 {
+  clear: both;
+  z-index: 65;
+  width: 31.1824620327%;
+}
+
+.card-25 {
+  z-index: 69;
+  width: 31.1824620327%;
+  margin-left: 3.23877%;
+}
+
+.card-26 {
+  z-index: 73;
+  width: 31.1824620327%;
+  margin-left: 3.13033%;
+}
+
+.card-27 {
+  clear: both;
+  z-index: 77;
+  width: 31.1824620327%;
+}
+
+.card-28 {
+  z-index: 81;
+  width: 31.1824620327%;
+  margin-left: 3.22632%;
+}
+
+.card-29 {
+  z-index: 85;
+  width: 31.1824620327%;
+  margin-left: 3.11967%;
+}
+
+.card-3 {
+  z-index: 152;
+}
+
+.card-30 {
+  clear: both;
+  z-index: 89;
+  width: 31.1824620327%;
+}
+
+.card-31 {
+  z-index: 93;
+  width: 31.1824620327%;
+  margin-left: 3.21566%;
+}
+
+.card-32 {
+  z-index: 97;
+  width: 31.1824620327%;
+  margin-left: 3.22632%;
+}
+
+.card-33 {
+  clear: both;
+  z-index: 101;
+  width: 31.1824620327%;
+}
+
+.card-34 {
+  z-index: 105;
+  width: 31.1824620327%;
+  margin-left: 3.20499%;
+}
+
+.card-35 {
+  z-index: 109;
+  width: 31.1824620327%;
+  margin-left: 3.21566%;
+}
+
+.card-36 {
+  clear: both;
+  z-index: 113;
+  width: 31.1824620327%;
+}
+
+.card-37 {
+  z-index: 117;
+  width: 31.1824620327%;
+  margin-left: 3.1961%;
+}
+
+.card-38 {
+  z-index: 121;
+  width: 31.1824620327%;
+  margin-left: 3.20499%;
+}
+
+.card-39 {
+  clear: both;
+  z-index: 125;
+  width: 31.1824620327%;
+}
+
+.card-4 {
+  clear: both;
+  z-index: 149;
+  margin: -376px 0 0 74.97156%;
+}
+
+.card-40 {
+  z-index: 129;
+  width: 31.1824620327%;
+  margin-left: 3.18366%;
+}
+
+.card-41 {
+  z-index: 133;
+  width: 31.1824620327%;
+  margin-left: 3.1961%;
+}
+
+.card-5 {
+  z-index: 155;
+}
+
+.card-6 {
+  z-index: 158;
+}
+
+.card-7 {
+  z-index: 161;
+}
+
+.card-8 {
+  z-index: 166;
+}
+
+.card-9 {
+  z-index: 5;
+  width: 31.1841889154%;
+}
+
+.container-1 {
+  z-index: 168;
+  width: 74.5%;
+  margin-top: 105px;
+}
+
+.container-10 {
+  z-index: 36;
+}
+
+.container-11 {
+  z-index: 40;
+}
+
+.container-12 {
+  z-index: 44;
+}
+
+.container-13 {
+  z-index: 48;
+}
+
+.container-14 {
+  z-index: 52;
+}
+
+.container-15 {
+  z-index: 56;
+}
+
+.container-16 {
+  z-index: 60;
+}
+
+.container-17 {
+  z-index: 64;
+}
+
+.container-18 {
+  z-index: 68;
+}
+
+.container-19 {
+  z-index: 72;
+}
+
+.container-2 {
+  z-index: 4;
+}
+
+.container-20 {
+  z-index: 76;
+}
+
+.container-21 {
+  z-index: 80;
+}
+
+.container-22 {
+  z-index: 84;
+}
+
+.container-23 {
+  z-index: 88;
+}
+
+.container-24 {
+  z-index: 92;
+}
+
+.container-25 {
+  z-index: 96;
+}
+
+.container-26 {
+  z-index: 100;
+}
+
+.container-27 {
+  z-index: 104;
+}
+
+.container-28 {
+  z-index: 108;
+}
+
+.container-29 {
+  z-index: 112;
+}
+
+.container-3 {
+  z-index: 8;
+}
+
+.container-30 {
+  z-index: 116;
+}
+
+.container-31 {
+  z-index: 120;
+}
+
+.container-32 {
+  z-index: 124;
+}
+
+.container-33 {
+  z-index: 128;
+}
+
+.container-34 {
+  z-index: 132;
+}
+
+.container-4 {
+  z-index: 12;
+}
+
+.container-5 {
+  z-index: 16;
+}
+
+.container-6 {
+  z-index: 20;
+}
+
+.container-7 {
+  z-index: 24;
+}
+
+.container-8 {
+  z-index: 28;
+}
+
+.container-9 {
+  z-index: 32;
+}
+
+.h6-1 {
+  z-index: 137;
+}
+
+.h6-2 {
+  z-index: 144;
+}
+
+.h6-3 {
+  z-index: 150;
+}
+
+.h6-4 {
+  z-index: 147;
+}
+
+.h6-5 {
+  z-index: 153;
+}
+
+.h6-6 {
+  z-index: 156;
+}
+
+.h6-7 {
+  z-index: 159;
+}
+
+.h6-8 {
+  z-index: 164;
+}
+
+.image-1 {
+  z-index: 3;
+}
+
+.image-10 {
+  z-index: 39;
+}
+
+.image-11 {
+  z-index: 43;
+}
+
+.image-12 {
+  z-index: 47;
+}
+
+.image-13 {
+  z-index: 51;
+}
+
+.image-14 {
+  z-index: 55;
+}
+
+.image-15 {
+  z-index: 59;
+}
+
+.image-16 {
+  z-index: 63;
+}
+
+.image-17 {
+  z-index: 67;
+}
+
+.image-18 {
+  z-index: 71;
+}
+
+.image-19 {
+  z-index: 75;
+}
+
+.image-2 {
+  z-index: 7;
+}
+
+.image-20 {
+  z-index: 79;
+}
+
+.image-21 {
+  z-index: 83;
+}
+
+.image-22 {
+  z-index: 87;
+}
+
+.image-23 {
+  z-index: 91;
+}
+
+.image-24 {
+  z-index: 95;
+}
+
+.image-25 {
+  z-index: 99;
+}
+
+.image-26 {
+  z-index: 103;
+}
+
+.image-27 {
+  z-index: 107;
+}
+
+.image-28 {
+  z-index: 111;
+}
+
+.image-29 {
+  z-index: 115;
+}
+
+.image-3 {
+  z-index: 11;
+}
+
+.image-30 {
+  z-index: 119;
+}
+
+.image-31 {
+  z-index: 123;
+}
+
+.image-32 {
+  z-index: 127;
+}
+
+.image-33 {
+  z-index: 131;
+}
+
+.image-4 {
+  z-index: 15;
+}
+
+.image-5 {
+  z-index: 19;
+}
+
+.image-6 {
+  z-index: 23;
+}
+
+.image-7 {
+  z-index: 27;
+}
+
+.image-8 {
+  z-index: 31;
+}
+
+.image-9 {
+  z-index: 35;
+}
+
+.row-3 {
+  position: relative;
+  float: left;
+  clear: both;
+  z-index: 134;
+  width: 73.25%;
+  height: 748px;
+  margin: 15px 0 0 15px;
+  background-color: rgb(255, 255, 255);
+}
+
+.text-10 {
+  z-index: 6;
+}
+
+.text-11 {
+  z-index: 10;
+}
+
+.text-12 {
+  z-index: 14;
+}
+
+.text-13 {
+  z-index: 18;
+}
+
+.text-14 {
+  z-index: 22;
+}
+
+.text-15 {
+  z-index: 26;
+}
+
+.text-16 {
+  z-index: 30;
+}
+
+.text-17 {
+  z-index: 34;
+}
+
+.text-18 {
+  z-index: 38;
+}
+
+.text-19 {
+  z-index: 42;
+}
+
+.text-20 {
+  z-index: 46;
+}
+
+.text-21 {
+  z-index: 50;
+}
+
+.text-22 {
+  z-index: 54;
+}
+
+.text-23 {
+  z-index: 58;
+}
+
+.text-24 {
+  z-index: 62;
+}
+
+.text-25 {
+  z-index: 66;
+}
+
+.text-26 {
+  z-index: 70;
+}
+
+.text-27 {
+  z-index: 74;
+}
+
+.text-28 {
+  z-index: 78;
+}
+
+.text-29 {
+  z-index: 82;
+}
+
+.text-30 {
+  z-index: 86;
+}
+
+.text-31 {
+  z-index: 90;
+}
+
+.text-32 {
+  z-index: 94;
+}
+
+.text-33 {
+  z-index: 98;
+}
+
+.text-34 {
+  z-index: 102;
+}
+
+.text-35 {
+  z-index: 106;
+}
+
+.text-36 {
+  z-index: 110;
+}
+
+.text-37 {
+  z-index: 114;
+}
+
+.text-38 {
+  z-index: 118;
+}
+
+.text-39 {
+  z-index: 122;
+}
+
+.text-40 {
+  z-index: 126;
+}
+
+.text-41 {
+  z-index: 130;
+}
+
+.text-5,
+.text-6 {
+  margin-left: 0.34443%;
+}
+
+.text-9 {
+  z-index: 2;
+}
+
+.h6 strong,
+.text strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  font-family: inherit;
+  font-style: normal;
+  font-size: inherit;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+.title strong {
+  border-top-width: 0;
+  border-right-width: 0;
+  border-bottom-width: 0;
+  border-left-width: 0;
+  border-color: transparent;
+  border-style: none;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+  background-color: transparent;
+  text-shadow: 1px 2px 5px rgba(0, 0, 0, .5);
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-size: 3em;
+  font-weight: 700;
+  text-transform: inherit;
+  text-decoration: inherit;
+  letter-spacing: 2px;
+  word-spacing: inherit;
+  color: inherit;
+  opacity: 1;
+  word-break: normal;
+  word-wrap: normal;
+  white-space: normal;
+}
+
+@media(max-width: 900px) {
+  .ad-right {
+    left: 79.1111111111%;
+    width: 20%;
+  }
+
+  .card .container,
+  .card-header .h6 {
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .container .image {
+    top: 0;
+    bottom: 0;
+    height: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .container .row {
+    width: 120.1741654571%;
+    height: 1756px;
+    margin-left: 14px;
+  }
+
+  .container .team {
+    top: 0;
+    bottom: 0;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  .footer {
+    position: relative;
+    z-index: 0;
+    margin-top: 500px;
+  }
+
+  .match {
+    width: 76.5555555555%;
+    height: 1246px;
+  }
+
+  .row .card {
+    position: relative;
+  }
+
+  .team {
+    position: relative;
+  }
+
+  .card .card-header-8 {
+    margin-top: -85px;
+  }
+
+  .card .text-1 {
+    width: 322.1036585365%;
+  }
+
+  .card .text-2 {
+    width: 322.1036585365%;
+    margin-top: 9px;
+  }
+
+  .card .text-3 {
+    width: 322.1036585365%;
+    margin-top: -1px;
+    margin-left: 1.78354%;
+  }
+
+  .card .text-4 {
+    width: 322.1036585365%;
+    margin-left: 1.78354%;
+  }
+
+  .card .text-5 {
+    width: 322.1036585365%;
+    margin-top: 0;
+    margin-left: 0.36585%;
+  }
+
+  .card .text-6 {
+    width: 322.1036585365%;
+    margin-left: 0.36585%;
+  }
+
+  .card .text-7 {
+    clear: none;
+    width: 79.7484756097%;
+  }
+
+  .card .text-8 {
+    width: 79.7484756097%;
+  }
+
+  .container-1 {
+    position: relative;
+    z-index: 168;
+  }
+
+  .row .card-1 {
+    z-index: 143;
+  }
+
+  .row .card-10 {
+    z-index: 9;
+    margin-left: 3.27076%;
+  }
+
+  .row .card-11 {
+    z-index: 13;
+    margin-left: 3.15463%;
+  }
+
+  .row .card-12 {
+    z-index: 17;
+  }
+
+  .row .card-13 {
+    z-index: 21;
+    margin-left: 3.27076%;
+  }
+
+  .row .card-14 {
+    z-index: 25;
+    margin-left: 3.15463%;
+  }
+
+  .row .card-15 {
+    z-index: 29;
+  }
+
+  .row .card-16 {
+    z-index: 33;
+  }
+
+  .row .card-17 {
+    z-index: 37;
+    margin-left: 3.15463%;
+  }
+
+  .row .card-18 {
+    z-index: 41;
+  }
+
+  .row .card-19 {
+    z-index: 45;
+  }
+
+  .row .card-2 {
+    z-index: 146;
+  }
+
+  .row .card-20 {
+    z-index: 49;
+    margin-left: 3.14041%;
+  }
+
+  .row .card-21 {
+    z-index: 53;
+  }
+
+  .row .card-22 {
+    z-index: 57;
+    margin-left: 3.24469%;
+  }
+
+  .row .card-23 {
+    z-index: 61;
+    margin-left: 3.13567%;
+  }
+
+  .row .card-24 {
+    z-index: 65;
+  }
+
+  .row .card-25 {
+    z-index: 69;
+    margin-left: 3.23758%;
+  }
+
+  .row .card-26 {
+    z-index: 73;
+    margin-left: 3.1285599999%;
+  }
+
+  .row .card-27 {
+    z-index: 77;
+  }
+
+  .row .card-28 {
+    z-index: 81;
+    margin-left: 3.22573%;
+  }
+
+  .row .card-29 {
+    z-index: 85;
+    margin-left: 3.1166999999%;
+  }
+
+  .row .card-3 {
+    z-index: 152;
+    margin-left: 25%;
+  }
+
+  .row .card-30 {
+    z-index: 89;
+  }
+
+  .row .card-31 {
+    z-index: 93;
+    margin-left: 3.21151%;
+  }
+
+  .row .card-32 {
+    z-index: 97;
+    margin-left: 3.22573%;
+  }
+
+  .row .card-33 {
+    z-index: 101;
+  }
+
+  .row .card-34 {
+    z-index: 105;
+    margin-left: 3.2044%;
+  }
+
+  .row .card-35 {
+    z-index: 109;
+    margin-left: 3.21151%;
+  }
+
+  .row .card-36 {
+    z-index: 113;
+  }
+
+  .row .card-37 {
+    z-index: 117;
+    margin-left: 3.19255%;
+  }
+
+  .row .card-38 {
+    z-index: 121;
+    margin-left: 3.2044%;
+  }
+
+  .row .card-39 {
+    z-index: 125;
+  }
+
+  .row .card-4 {
+    z-index: 149;
+    margin-left: 50%;
+  }
+
+  .row .card-40 {
+    z-index: 129;
+    margin-left: 3.18544%;
+  }
+
+  .row .card-41 {
+    z-index: 133;
+    margin-left: 3.19255%;
+  }
+
+  .row .card-5 {
+    z-index: 155;
+    margin-top: 628px;
+    margin-left: 75%;
+  }
+
+  .row .card-6 {
+    clear: both;
+    z-index: 158;
+    margin-left: 25%;
+  }
+
+  .row .card-7 {
+    z-index: 161;
+  }
+
+  .row .card-8 {
+    z-index: 166;
+  }
+
+  .row .card-9 {
+    z-index: 5;
+  }
+
+  .row-3 {
+    z-index: 134;
+    margin-top: 2015px;
+    margin-left: 189px;
+  }
+}

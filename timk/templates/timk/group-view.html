@@ -1,0 +1,13 @@
+{% extends "timk/base.html" %}
+
+ {% block content %}
+ <p>Groups Schedule {{now}}</p>
+ <p>{{test}}</p>
+{% for match in test %}
+    <p>{{match.team1}} - {{match.team2}} on {{match.date}} at {{match.venue}} </p>
+</br><p>{% for chan in match.channels %}
+    {{chan}}</p>
+    {% endfor %}
+
+{% endfor %}
+ {% endblock content %}

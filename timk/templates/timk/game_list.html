@@ -1,0 +1,40 @@
+{% extends "timk/index.html" %}
+
+{% block content %}
+
+<!-- Page Heading --> 
+{% if not grl %}
+      <h1 class="my-4">Great games coming soon. Stay tuned.
+        <small></small>
+      </h1>
+{% else %}
+      <h1 class="my-4">Great games coming soon. Check the groups.
+        <small></small>
+      </h1>
+ {% for gr in grl %}
+ {% if forloop.first %}<div class="row">{% endif %}
+ <div class="col-lg-3 col-md-4 col-sm-6 portfolio-item z-depth-5 box-shadow">
+    <div class="cardo h-100 z-depth-5">
+      <a href="{% url 'timk:group-matches' gr.group %}"><div class="card-header bg-dark text-white">          <h4 class="card-title">Group {{gr.group}}</h4>
+        </div></a>
+      
+      <div class="card-body">
+        <p class="card-text">
+            {% for game in object_list %}
+            {% if game.team1.group == gr.group %}
+            <p class="card-text"><a href="{% url 'timk:match-details' game.slug %}">{{ game.team1 }} - {{ game.team2 }}</a>
+            {{game.date|date:"D d M Y"}} at {{game.time}}</p> 
+            
+          {% endif %}
+          {% endfor %}
+      </div>
+    </div>
+  </div>
+  {% if forloop.counter|divisibleby:4 %}</div><div class="row">{% endif %}
+      {% if forloop.last %}</div>{% endif %}
+ 
+
+{% endfor %} 
+
+{% endif %}
+{% endblock content %}

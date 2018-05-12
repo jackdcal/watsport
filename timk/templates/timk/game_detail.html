@@ -1,0 +1,14 @@
+{% extends "timk/base.html" %}
+
+{% block content %}
+
+
+<h1>{{ object }}  and {{ object.slug }}</h1>
+<p>{{ object.time }} {{ object.date }}</p>
+<p>Stadium: {{ object.venue }}</p>
+<p>Channels: {{object.channels}}</p>
+<p>Test: {{test}}</p>
+<p>Testkw: {{testkw}}</p>
+<p>Date: {{ now|date }}</p>
+
+{%endblock content %}

@@ -1,0 +1,9 @@
+{% if competition_list %}
+    <ul>
+    {% for competition in competition_list %}
+        <li><a href="/{{ competition.name }}/">{{ competion.name }}</a></li>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No competitions are available.</p>
+{% endif %}

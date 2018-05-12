@@ -1,0 +1,33 @@
+{% extends 'timk/index.html' %}
+{% block content %}
+
+
+
+{% for team in team_list %}
+{% if forloop.first %}
+    <div class="row"><div style="padding-left:40px;width:100%;background: rgba(76, 175, 80, 0.8) "><h4 style="font-weight:bold">2018 FIFA World Cup Russia Teams</h4>
+      <div class="row"> {% endif %}
+      
+        <div style="width: 50%; display:inline-block;font-weight: 500;">
+              <div style="width:11%;display:inline-block;border:1px grey;vertical-align:middle">
+                <div class="flag-wrapper">
+                  <div class="flag flag-icon-background flag-icon-{{ team.country|lower }}" title="{{ team.country|lower }}">
+          </div></div></div>
+          <div  style="display: inline-block;vertical-align: baseline;width:25%"><p class="text-justify">{{ team }}</p>
+          </div>
+          <div style="display: inline-block;width:15%">gr. {{team.group}}</div>
+          <div style="display:inline-block"><a href="{{team.website}}" target="_blank">
+            <span class="badge badge-info">www</span>
+      <span class="sr-only">www</span></a></div></div>
+    
+      {% if forloop.counter|divisibleby:2 %}</div><div class="row">{% endif %}
+          {% if forloop.last %}</div></div>{% endif %}
+    
+
+  {% empty %} The list is on it is way. Stay tuned.
+
+
+{% endfor %}
+</br>
+
+  {% endblock %}
