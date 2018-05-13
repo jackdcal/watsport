@@ -1,0 +1,12 @@
+<html><body><div>
+    <h1><a href="/">SportWatch Blog</a></h1>
+</div>
+
+{% for comp in Competition %}
+    <div>
+        <h1><a href="">{{ comp.name }}</a></h1>
+        //\\##<p>{{ comp.name|linebreaksbr }}</p>
+    </div>
+{% endfor %}
+</body>
+</html>

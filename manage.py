@@ -3,7 +3,10 @@ import os
 import sys
 
 if __name__ == "__main__":
+<<<<<<< HEAD
     os.environ.setdefault("DJANGO_SETTINGS_MODULE", "watsport.settings")
+=======
+ 61ad3075bc95366c9ecbc38a5251b97179a59a00
     try:
         from django.core.management import execute_from_command_line
     except ImportError as exc:
